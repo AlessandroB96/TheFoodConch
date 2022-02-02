@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="assets/css/recipes.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/recipes.css">
+    <title>The Food Conch - Recipes</title>
+</head>
+<body>
+    <!-- <div>
+        <h1 class="center-align">So you decided to stay in and cook, huh?</h1>
+    </div> -->
+    <div class="row main-container">
+        <a class="btn col s1 red accent-2 nav left" href=index.html id="homeBtn">Home</a>
+        <h3 class="center-align"><span class="material-icons" id="blender-icon">blender</span></h3>
+        <a class="btn col s1 red accent-2 nav right" href=restaurants.html id="restaurantBtn">Restaurants</a>
+    </header>
+    <div>
+        <!-- <h3 class="center-align"><span class="material-icons" id="blender-icon">blender</span></h3> -->
+    </div>
+    <div class="row main-container">
+        <div class="col l3 s12 navigation #ff5252 red lighten-5">
+            <ul class="nav">
+                <li>
+                    <div class="user-view">
+                        <div class="greeting">
+                            <h5>Find a Recipe!</h5>
+                        </div>
+                        <img class="conch center-align" src="./assets/images/conch-rot.svg">
+                        <p class="welcome">Welcome to the Food Conch! Choose which Cuisine you'd like make:</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="inputs">
+                        <div class="input-field col s12 z-index-1">
+                            <input type="text" id="cuisine-input" class="autocomplete" placeholder="   Cuisine:">
+                            <!-- <label for="autocomplete-input">Autocomplete</label> -->
+                            <input type="text" id="keyword-input" placeholder="   Keywords:"></input>
+                            <!-- <input type="text" id="cuisine-input" placeholder="   Cuisine:"></input> -->
+                        </div>
+                        <button class="btn red accent-3" id="search">Search</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col l6 s12 map center-align">
+            <div class="recipe-image"></div>
+        </div>
+        <div class="col l3 s12 offset-3 menu recipe-info right">
+            <div class="menu-content recipe-content red lighten-5 float-right">
+                <h5 class="center" id="recipe-name">Recipe Display</h5>
+                <div>
+                    <p id="link-p" class="flow-text">
+                        <span id="from"></span>
+                        <span id="link"></span>
+                    </p>
+                    <p id="time"></p>
+                </div>
+                <div id="ingredients"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <footer>
+        <h3 class="center-align"><span class="material-icons" id="blender-icon">blender</span></h3>
+    </footer> -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./js/recipes.js"></script>
+</body>
+</html>
+
+
+
+<!-- original recipe html -->
+
+    <!-- <div class="row center contain">
+
+        <div class="col l12 main-title">
+
+        </div>
+        <div class="col l6 title">
+            <h1 class="company">The Food Conch.</h1>
+            <img src="assets/images/conch.svg" class="logo-recipe">
+            <h6 class="context">Pick a category and the Food Conch shall pick your recipe</h6>
+            <div class="carousel">
+                <a class="carousel-item" href="#one!">Italian</a>
+                <a class="carousel-item" href="#two!">Mexican</a>
+                <a class="carousel-item" href="#three!">Japanese</a>
+                <a class="carousel-item" href="#four!">Middle Eastern</a>
+                <a class="carousel-item" href="#five!">Indian</a>
+            </div>
+
+
+            Dropdown Structure
+                        <ul id='dropdown1' class='dropdown-content blue-grey darken-3'>
+                            <li class="li1"><a href="#!">Cuisine</a></li>
+                            <li><a href="#!">Italian</a></li>
+                            <li><a href="#!">Mexican</a></li>
+                            <li><a href="#!">Chinese</a></li>
+                        </ul> 
+        </div>
+
+        <div class="col l6 title2" id="recipe-div">
+            <h1>where recipes will go</h1>
+        </div>        
+    </div> -->

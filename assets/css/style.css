@@ -1,0 +1,88 @@
+/*Most of the materialized framework will be used for the dynamically generated data, not the landing page */
+
+body {
+    background-color: rgba(212, 31, 25, 0.507);
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    padding: 0 20px;
+}
+
+h3 {
+    font-family: Lobster;
+}
+
+h6 {
+    font-family: 'Mukta', sans-serif;
+    font-size: 22px;
+    padding: 0 20px;
+}
+
+.logo-container {
+    text-align: center;
+}
+    
+.logo {
+    font-family: 'Lobster';
+    text-align: center;
+    margin-top: 100px;
+    font-size: 35px;
+}
+
+.conch {
+    width: 150px;
+    margin: auto;
+}
+
+
+.hero {
+    text-align: center;
+    margin-bottom: 40px;
+    color: black;    
+}
+
+#hero-message {
+    font-family: 'Mukta', sans-serif;
+}
+
+#restaurants , #recipes {
+    background-color: #ff5252;
+    text-align: center;
+    text-shadow: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#restaurants:hover , #recipes:hover {
+    opacity: 60%;
+    color: black;
+}
+
+#ramen-icon , #blender-icon {
+    text-shadow: none;
+    
+}
+
+.buttons {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    min-width: 330px;
+}
+
+@media screen and (max-width: 600px) {
+    .buttons {
+        flex-direction: column;
+        margin: 20px 0;
+        justify-content: center;
+        min-width: none;
+    }
+    
+    .buttons a {
+        margin: 20px 20px;
+        text-align: center;
+    }
+}

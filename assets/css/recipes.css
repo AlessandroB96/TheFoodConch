@@ -1,0 +1,154 @@
+:root {
+    --height: 550px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin: 20px 50px;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+h5 {
+    margin: 0 0 20px 0;
+}
+
+#homeBtn, #recipeBtn {
+    width: 150px;
+}
+
+.main-container {
+    margin: 0 40px 0 50px;
+}
+
+.navigation {
+    margin-top: 20px;
+    height: var(--height);
+    font-family: 'Mukta', sans-serif;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.conch {
+    display: block;
+    width: 150px;
+    align-items: center;
+}
+
+.greeting {
+    font-family: 'Lobster';
+    font-size: 30px;
+    text-align: center;
+}
+
+.inputs {
+    width: 100%;
+    /* text-align: center; */
+}
+
+.search-btn-container {
+    border-radius: 10px;
+}
+
+.dropdown-trigger {
+    width: 100%;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.input-field {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#keyword-input {
+    width: 100%;
+}
+
+.recipe-img {
+    margin-top: 20px;
+    max-width: var(--height);
+    max-height: var(--height);
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.nextBtn {
+    width: 120px;
+    margin: 10px 30px;
+}
+
+.menu {
+    margin: 20px 0;
+    border-left: 2px solid black;
+    height: var(--height);
+    border-radius: 10px;
+}
+
+.menu-content {
+    border-radius: 10px;
+    height: var(--height);
+    box-shadow: 1px 1px 5px black;
+    font-family: 'Lobster';
+    color: black;
+}
+
+#recipe-name {
+    padding-top: 15px;
+}
+
+#link-p, #time, .ingredient-list {
+    font-size: 16px;
+    font-family: 'Mukta', sans-serif;
+    margin: 10px;
+}
+
+#ingredients {
+    padding: 10px;
+    height: 70%;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.center {
+    padding: 5px;
+}
+
+#form {
+    color: black;
+}
+
+#blender-icon {
+    font-size: 40px;
+}
+
+@media screen and (max-width: 991px) {
+
+    .navigation {
+        height: 100%;
+    }
+    
+    .menu {
+        height: 100%;
+    }
+
+    .menu-content {
+        height: 100%;
+    }
+
+    #ingredients {
+        padding: 10px;
+        height: 1000%;
+        overflow: none;
+        overflow-y: none;
+    }
+}
